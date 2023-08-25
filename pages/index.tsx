@@ -10,7 +10,7 @@ const HomePage: NextPage<Props> = ({ }) => {
 
       <SEO title={'Home Page'} description={'Home Page description'} keywords={'Home Page keywords'} />
 
-      <h1>Home Page</h1>
+      <h1>Home Page Hello</h1>
     </>
   )
 }
