@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import RootLayout from '../components/layout'
+import RootLayout from '../components/layouts/layout'
 import { NextPage } from 'next/types'
 
 const App: React.FC<NextPage> = ({ Component, pageProps }: any) => {

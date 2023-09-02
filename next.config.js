@@ -7,7 +7,12 @@ const nextConfig = {
     dirs: ['pages', 'components'],
   },
   images: {
-    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.sanity.io'
+      },
+    ],
   },
 }
 
