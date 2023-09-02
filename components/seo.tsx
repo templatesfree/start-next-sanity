@@ -21,15 +21,14 @@ const SEO: NextPage<SeoProps> = ({ title, description, keywords }) => {
           content={description} />
         <meta property="og:keywords" content={keywords} />
         <meta property="og:type" content="website" />
-
         <meta property="twitter:image" content="Twitter link preview image URL" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Twitter link preview title" />
         <meta property="twitter:description" content="Twitter link preview description" />
-
         <meta property="og:image" content="Link preview image URL" />
-
         <meta property="og:url" content="Canonical link preview URL" />
+        <meta name="robots" content='index, follow' />
+        <link rel='canonical' href='http://localhost:3000/' />
       </Head>
     </>
   )
